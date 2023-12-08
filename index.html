@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Coding Quiz</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="assets\style.css" />
+  </head>
+  <body>
+    <header class="outer-container">
+        <button class= "score">View Highscore</button>
+        <div>Timer:<span class="timer">80</span></div>
+    </header>
+
+    <main>
+        <section class="main">
+            <h1>Coding Quiz Challenge</h1>
+            <p>Try to answer the questions in the given time.Please keep in mind that the incorrect answer will penalize your time by ten seconds.</p>
+         <button class="startbtn">Start Quiz</button>
+        </section>
+
+        <section class="hidden" id="show">
+          <h2 class="question"></h2>
+          <ul class="option"></ul>
+        </section>
+        <div class="result hidden" >
+          <p>Final Score: <span class="final-score"></span></p>
+          <input type="text" class="initials" placeholder="Enter your Initials">
+          <button class="submitbtn">Submit</button>
+        </div>
+    </main>
+      <script src="./assets/script.js"></script>
+  </body>
+</html>
